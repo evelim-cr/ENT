@@ -1,0 +1,150 @@
+#about {
+    .container {
+        padding: 60px 0;
+    }
+
+    .pre-header {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 30px;
+        font-weight: 500;
+        margin-top: -4px;
+    }
+
+    p {
+        line-height: 1.8;
+    }
+
+    .btn {
+        text-transform: uppercase;
+        border-radius: 300px;
+        font-weight: 700;
+        border: 1px solid #337AB7;
+        background-color: white;
+        color: #337AB7;
+        font-size: 13px;
+        padding: 10px 24px;
+        margin-top: 24px;
+    }
+}
+
+#services {
+    .container {
+        padding: 60px 0;
+    }
+
+    .service-item {
+        margin-bottom: 30px;
+    }
+}
+
+#schedule {
+    .container {
+        padding: 60px 0;
+    }
+
+    .events {
+        padding: 16px 32px;
+
+        .slick-prev,
+        .slick-next {
+            &:before {
+                color: #333333;
+                opacity: 1;
+            }
+            &.slick-disabled:before {
+                opacity: 0.25;
+            }
+        }
+
+        .event {
+            font-family: 'Open Sans';
+            padding: 24px;
+            background-color: #F3F3F3;
+            height: 290px;
+            text-align: left;
+
+            &.primary {
+                background-color: #E4E4E4;
+            }
+
+            .event-header {
+                margin: -16px auto;
+
+                .event-date {
+                    font-size: 115px;
+                    font-weight: 800;
+                }
+
+                .event-month {
+                    font-size: 21px;
+                    font-weight: 400;
+                    font-style: italic;
+                    text-transform: uppercase;
+                }
+            }
+
+            .event-body {
+                .event-title {
+                    font-size: 16px;
+                    font-weight: 800;
+                    margin-bottom: 0px;
+                    text-transform: uppercase;
+                }
+
+                p {
+                    margin-top: 6px;
+                    text-transform: uppercase;
+
+                    i {
+                        width: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#portfolio {
+    padding: 50px 0;
+
+    .portfolio-item {
+        margin-bottom: 30px;
+    }
+
+    .img-portfolio {
+        margin: 0 auto;
+    }
+
+    .img-portfolio:hover {
+        opacity: 0.8;
+    }
+}
+
+#call-to-action {
+    padding: 50px 0;
+
+    .btn {
+        margin: 10px;
+    }
+}
+
+#location {
+    height: 500px;
+    overflow: hidden;
+
+    @media(max-width:768px) {
+        height: 75%;
+    }
+
+    map {
+        height:100%;
+
+        img {
+            max-width: none !important;
+            background: none !important;
+        }
+    }
+}

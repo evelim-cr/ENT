@@ -1,0 +1,16 @@
+footer {
+    padding: 100px 0;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+footer a:focus, a:hover {
+    color: #ffffff;
+}
+
+footer .list-inline a:focus,
+footer .list-inline a:hover {
+    text-shadow: #fff 0px 0px 3px;
+}

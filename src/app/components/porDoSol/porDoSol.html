@@ -1,0 +1,8 @@
+<span class="fa-stack fa-4x">
+    <i class="fa fa-circle fa-stack-2x"></i>
+    <i class="fa fa-cloud fa-stack-1x text-primary"></i>
+</span>
+<input type="text" class="form-control por-do-sol-input" ng-model="cidade" typeahead="c as c.nome for c in cidades | filter:$viewValue | limitTo:8">
+<h4>
+    <strong>{{horario | date: "HH : mm"}}</strong>
+</h4>
