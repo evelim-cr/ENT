@@ -112,6 +112,45 @@ hr {
     height: 100%;
 }
 
+.icon {
+  display: inline-block;
+}
+
+@font-face {
+	font-family: 'Logo';
+	src:url('/assets/fonts/Logo.eot?ybw4k0');
+	src:url('/assets/fonts/Logo.eot?#iefixybw4k0') format('embedded-opentype'),
+		url('/assets/fonts/Logo.ttf?ybw4k0') format('truetype'),
+		url('/assets/fonts/Logo.woff?ybw4k0') format('woff'),
+		url('/assets/fonts/Logo.svg?ybw4k0#Logo') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="logo-"], [class*=" logo-"] {
+	font-family: 'Logo';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.logo-ent:before {
+	content: "\e600";
+}
+.logo-iasd:before {
+	content: "\e601";
+}
+.logo-iasd-wide:before {
+	content: "\e602";
+}
+
 /**
  *  Do not remove this comments bellow. It's the markers used by gulp-inject to inject
  *  all your sass files automatically

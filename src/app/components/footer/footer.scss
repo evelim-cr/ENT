@@ -1,16 +1,23 @@
 footer {
-    padding: 100px 0;
-}
+  padding: 40px 0;
 
-footer a {
+  a {
     color: #ffffff;
-}
+  }
 
-footer a:focus, a:hover {
+  a:focus,
+  a:hover {
     color: #ffffff;
-}
+  }
 
-footer .list-inline a:focus,
-footer .list-inline a:hover {
-    text-shadow: #fff 0px 0px 3px;
+  .list-inline {
+    a:focus,
+    a:hover {
+      text-shadow: #fff 0px 0px 3px;
+    }
+  }
+
+  .logo-ent {
+    font-size: 92px;
+  }
 }

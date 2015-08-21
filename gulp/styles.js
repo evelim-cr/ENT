@@ -11,7 +11,25 @@ var $ = require('gulp-load-plugins')();
 var wiredep = require('wiredep').stream;
 var _ = require('lodash');
 
-gulp.task('styles', function () {
+gulp.task('sprites', function () {
+  var spriteData = gulp.src([
+    path.join(conf.paths.src, '/sprites/**/*.png'),
+  ])
+    .pipe($.spritesmith({
+      imgName: 'sprite.png',
+      cssName: 'sprite.css'
+    }));
+
+  // Pipe image stream through image optimizer and onto disk
+  spriteData.img
+    .pipe(gulp.dest(path.join(conf.paths.tmp, '/serve/app/')));
+
+  // Pipe CSS stream through CSS optimizer and onto disk
+  spriteData.css
+    .pipe(gulp.dest(path.join(conf.paths.tmp, '/serve/app/')));
+});
+
+gulp.task('styles', ['sprites'], function () {
   var sassOptions = {
     style: 'expanded'
   };

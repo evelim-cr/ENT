@@ -3,15 +3,16 @@
 
   angular
     .module('ent', [
-    	'ngAnimate', 
-    	'ngCookies', 
-    	'ngTouch', 
-    	'ngSanitize', 
-    	'ngResource', 
+    	'ngAnimate',
+    	'ngCookies',
+    	'ngTouch',
+    	'ngSanitize',
+    	'ngResource',
     	'ngRoute',
-        'ui.bootstrap',
-        'ngMap',
-        'slick'
+      'ui.bootstrap',
+      'ngMap',
+      'slick',
+      'duScroll'
     ]);
 
 })();

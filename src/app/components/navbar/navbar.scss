@@ -1,35 +1,61 @@
 .navbar-default {
-    background-color: rgba(0, 0, 0, 0.4);
-    border-color: rgba(0, 0, 0, 0.2);
-    font-size: 13px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-color: rgba(0, 0, 0, 0.2);
+  font-size: 13px;
 
-    .navbar-brand {
-        color: #ffffff;
+  .navbar-brand {
+    font-size: 42px;
+    margin-top: -12px;
+    color: #ffffff;
 
-        > img {
-            margin-top: -12px;
-        }
+    &:focus,
+    &:hover {
+      color: #ffffff;
+      text-shadow: #fff 0px 0px 3px;
     }
+  }
 
-    .navbar-nav > li > a {
-        color: #ffffff;
-    }
+  .navbar-nav > li {
+    > a {
+      color: #ffffff;
 
-    .navbar-nav > li.active > a {
+      &:focus,
+      &:hover {
         color: #ffffff;
         background-color: rgba(0, 0, 0, 0.1);
+      }
     }
 
-    .navbar-toggle {
-        background-color: rgba(0,0,0,0.2);
-
-        &:focus,
-        &:hover {
-            background-color: rgba(0,0,0,0.7);
-        }
-
-        .icon-bar {
-            background-color: #dddddd;
-        }
+    &.active {
+      > a,
+      > a:focus,
+      > a:hover {
+        color: #ffffff;
+        background-color: rgba(0, 0, 0, 0.2);
+        cursor: default;
+      }
     }
+
+    &.open {
+      > a,
+      > a:focus,
+      > a:hover {
+        color: #ffffff;
+        background-color: rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+
+  .navbar-toggle {
+    background-color: rgba(0,0,0,0.2);
+
+    &:focus,
+    &:hover {
+      background-color: rgba(0,0,0,0.7);
+    }
+
+    .icon-bar {
+      background-color: #dddddd;
+    }
+  }
 }
