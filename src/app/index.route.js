@@ -9,8 +9,11 @@
     $routeProvider
       .when('/', {
         templateUrl: 'app/main/main.html',
-        controller: 'MainController',
-        controllerAs: 'main'
+        controller: 'MainController'
+      })
+      .when('/:slug', {
+        templateUrl: 'app/post/post.html',
+        controller: 'PostController'
       })
       .otherwise({
         redirectTo: '/'

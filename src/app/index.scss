@@ -26,6 +26,11 @@ body {
     font-weight: 400;
 }
 
+.wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -108,10 +113,6 @@ hr {
   }
 }
 
-.content {
-    height: 100%;
-}
-
 .icon {
   display: inline-block;
 }
@@ -156,6 +157,18 @@ hr {
 
 .fa-stack-1x {
   line-height: inherit !important;
+}
+
+.noresize {
+  resize: none;
+}
+
+.vresize {
+  resize: vertical;
+}
+
+.hresize {
+  resize: horizontal;
 }
 
 /**

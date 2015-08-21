@@ -1,4 +1,4 @@
-#about {
+#conheca {
     .container {
         padding: 60px 0;
     }
@@ -30,7 +30,7 @@
     }
 }
 
-#services {
+#servicos {
     .container {
         padding: 60px 0;
     }
@@ -40,7 +40,7 @@
     }
 }
 
-#schedule {
+#agenda {
     .container {
         padding: 60px 0;
     }
@@ -107,31 +107,7 @@
     }
 }
 
-#portfolio {
-    padding: 50px 0;
-
-    .portfolio-item {
-        margin-bottom: 30px;
-    }
-
-    .img-portfolio {
-        margin: 0 auto;
-    }
-
-    .img-portfolio:hover {
-        opacity: 0.8;
-    }
-}
-
-#call-to-action {
-    padding: 50px 0;
-
-    .btn {
-        margin: 10px;
-    }
-}
-
-#location {
+#localizacao {
     height: 500px;
     overflow: hidden;
 

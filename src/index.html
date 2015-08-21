@@ -1,6 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="pt-br" ng-app="ent">
   <head>
+    <base href="/">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -49,7 +50,13 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <div class="content" ng-view></div>
+    <div class="wrapper">
+      <ent-navbar></ent-navbar>
+
+      <div class="content" ng-view></div>
+
+      <ent-footer></ent-footer>
+    </div>
 
     <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
 
@@ -69,6 +76,6 @@
     <!-- endinject -->
     <!-- endbuild -->
 
-    
+
   </body>
 </html>

@@ -1,0 +1,24 @@
+<div class="modal-header">
+  <button type="button" class="close" ng-click="cancel()" aria-hidden="true">×</button>
+  <h3 class="modal-title">Contate-nos!</h3>
+</div>
+<div class="modal-body">
+  <form>
+    <div class="form-group">
+      <label for="name">Nome</label>
+      <input type="text" id="name" class="form-control" placeholder="Miguel Oliveira">
+    </div>
+    <div class="form-group">
+      <label for="email">E-mail</label>
+      <input type="text" id="email" class="form-control" placeholder="seu@email.com">
+    </div>
+    <div class="form-group">
+      <label for="message">Mensagem</label>
+      <textarea id="message" class="form-control vresize" rows="6" placeholder="Sua mensagem.."></textarea>
+    </div>
+  </form>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn" ng-click="cancel()">Cancelar</button>
+  <button type="button" class="btn btn-primary" ng-click="ok()">Enviar</button>
+</div>

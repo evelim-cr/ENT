@@ -1,51 +1,51 @@
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-default navbar-fixed-top" ng-init="navbarCollapsed = true">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".nav-collapse" aria-expanded="false">
+      <button type="button" class="navbar-toggle collapsed" ng-click="navbarCollapsed = !navbarCollapsed" aria-expanded="false">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">
+      <a href="/" class="navbar-brand">
         <span class="logo-iasd-wide" title="Igreja Adventista do Sétimo Dia"></span>
       </a>
     </div>
 
-    <div class="collapse navbar-collapse">
+    <div class="navbar-collapse" ng-class="{ 'collapse': navbarCollapsed }">
       <ul class="nav navbar-nav navbar-right">
-        <li du-scrollspy="about">
-          <a href="#about" du-smooth-scroll>Conheça</a>
+        <li du-scrollspy="conheca">
+          <a href="/#conheca" du-smooth-scroll>Conheça</a>
         </li>
         <li dropdown>
-          <a href="#/projetos" dropdown-toggle role="button" aria-haspopup="true" aria-expanded="false">Projetos <span class="caret"></span></a>
+          <a href="#" dropdown-toggle role="button" aria-haspopup="true" aria-expanded="false">Projetos <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#/projetos/amm">AMM</a></li>
-            <li><a href="#/projetos/desbravadores">Desbravadores</a></li>
-            <li><a href="#/projetos/jovem">Jovem</a></li>
-            <li><a href="#/projetos/lar_e_familia">Lar e Família</a></li>
-            <li><a href="#/projetos/mulher">Mulher</a></li>
-            <li><a href="#/projetos/musica">Dádiva Coral</a></li>
-            <li><a href="#/projetos/codigo_aberto">Código Aberto</a></li>
-            <li><a href="#/projetos/eai">E@I?!</a></li>
-            <li><a href="#/projetos/esta_escrito">Está Escrito</a></li>
+            <li><a href="/amm">AMM</a></li>
+            <li><a href="/desbravadores">Desbravadores</a></li>
+            <li><a href="/jovem">Jovem</a></li>
+            <li><a href="/lar_e_familia">Lar e Família</a></li>
+            <li><a href="/mulher">Mulher</a></li>
+            <li><a href="/musica">Dádiva Coral</a></li>
+            <li><a href="/codigo_aberto">Código Aberto</a></li>
+            <li><a href="/eai">E@I?!</a></li>
+            <li><a href="/esta_escrito">Está Escrito</a></li>
           </ul>
         </li>
         <li dropdown>
-          <a href="#/cursos" dropdown-toggle role="button" aria-haspopup="true" aria-expanded="false">Cursos <span class="caret"></span></a>
+          <a href="#" dropdown-toggle role="button" aria-haspopup="true" aria-expanded="false">Cursos <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#/cursos/fotografia">Fotografia</a></li>
-            <li><a href="#/cursos/hebraico">Hebraico</a></li>
-            <li><a href="#/cursos/ingles">Inglês</a></li>
+            <li><a href="/fotografia">Fotografia</a></li>
+            <li><a href="/hebraico">Hebraico</a></li>
+            <li><a href="/ingles">Inglês</a></li>
           </ul>
         </li>
-        <li du-scrollspy="schedule">
-          <a href="#schedule" du-smooth-scroll>Agenda</a>
+        <li du-scrollspy="agenda">
+          <a href="/#agenda" du-smooth-scroll>Agenda</a>
         </li>
-        <li du-scrollspy="contact">
-          <a href="#contact" du-smooth-scroll>Entre em Contato</a>
+        <li>
+          <a href="" ng-click="openContactForm()">Entre em Contato</a>
         </li>
-        <li du-scrollspy="location">
-          <a href="#location" du-smooth-scroll>Localização</a>
+        <li du-scrollspy="localizacao">
+          <a href="/#localizacao" du-smooth-scroll>Localização</a>
         </li>
       </ul>
     </div>
