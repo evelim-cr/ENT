@@ -141,6 +141,9 @@ hr {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.logo-sunset:before {
+	content: "\e603";
+}
 .logo-ent:before {
 	content: "\e600";
 }
@@ -149,6 +152,10 @@ hr {
 }
 .logo-iasd-wide:before {
 	content: "\e602";
+}
+
+.fa-stack-1x {
+  line-height: inherit !important;
 }
 
 /**
