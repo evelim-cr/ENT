@@ -1,7 +1,19 @@
 .navbar-default {
   background-color: rgba(0, 0, 0, 0.4);
-  border-color: rgba(0, 0, 0, 0.2);
+  /*border-color: rgba(0, 0, 0, 0.2);*/
+  border: none;
+  box-shadow: 0px 1px 4px #333;
   font-size: 13px;
+
+  transition: background-color 0.5s ease;
+
+  &.active {
+    background-color: rgb(41, 87, 164);
+  }
+
+  &.always-active {
+    background-color: rgb(41, 87, 164);
+  }
 
   .navbar-brand {
     font-size: 42px;

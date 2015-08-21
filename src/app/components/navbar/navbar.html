@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default navbar-fixed-top" ng-init="navbarCollapsed = true">
+<nav class="navbar navbar-default navbar-fixed-top" ng-class="{ 'always-active': !isHome() }">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" ng-click="navbarCollapsed = !navbarCollapsed" aria-expanded="false">
