@@ -31,7 +31,7 @@
         $($window).scroll(function() {
           $navbar.toggleClass(
             "active",
-            $(window).scrollTop() > 10
+            $($window).scrollTop() > 10
           );
         });
       }

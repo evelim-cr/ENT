@@ -3,7 +3,8 @@
 
   angular
     .module('ent')
-    .config(config);
+    .config(config)
+    .value('duScrollDuration', 1000);
 
   /** @ngInject */
   function config($logProvider, $locationProvider) {
