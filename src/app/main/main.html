@@ -34,17 +34,9 @@
                 <div class="container-fluid">
                     <h3><i class="fa fa-file-text"></i> Notícias</h3>
                     <div class="row">
-                        <div class="col-md-4">
-                            <h4><a href="">Mauris Porttitor Maximus Nunc</a></h4>
-                            <p>Ut auctor magna lobortis id. Suspendisse vitae turpis vel ante dapibus tincidunt et ac erat. Aenean accumsan vel nibh pretium dapibus. Donec lacus nibh, hendrerit non sem ut, consequat faucibus nibh.</p>
-                        </div>
-                        <div class="col-md-4">
-                            <h4><a href="">Sed Ante Nunc</a></h4>
-                            <p>Luctus nec rhoncus eget, consequat ac erat. Quisque quis velit sit amet massa pulvinar scelerisque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam at scelerisque urna, ut luctus mauris.</p>
-                        </div>
-                        <div class="col-md-4">
-                            <h4><a href="">Vestibulum Ante Ipsum Primis</a></h4>
-                            <p>In faucibus orci luctus et ultrices posuere cubilia Curae; Ut at finibus neque. Proin ut finibus lorem, ac bibendum ipsum. In eu enim vitae est posuere molestie.</p>
+                        <div class="col-md-4" ng-repeat="post in posts | orderBy:'-date' | limitTo:3">
+                            <h4><a href="/{{ post.slug }}">{{ post.title }}</a></h4>
+                            <p>{{ post.excerpt }}</p>
                         </div>
                     </div>
                 </div>
