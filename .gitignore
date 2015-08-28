@@ -5,3 +5,5 @@ bower_components/
 .tmp/
 dist/
 *.log
+src/api/vendor
+src/api/config.php
