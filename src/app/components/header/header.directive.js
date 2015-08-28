@@ -9,6 +9,7 @@
   function entHeader() {
     var directive = {
       restrict: 'E',
+      transclude: true,
       templateUrl: 'app/components/header/header.html'
     };
 
