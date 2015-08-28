@@ -9,6 +9,19 @@ define('EMAIL_PATTERN', '/^[^0-9][A-z0-9._%+-]+([.][A-z0-9_]+)*[@][A-z0-9_]+([.]
 $app = new \Slim\Slim();
 $app->response()->header('Content-Type', 'application/json;charset=utf-8');
 
+if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
+  if (isset($_SERVER['HTTP_ACCESS_CONTROL_REQUEST_METHOD'])) {
+    if($_SERVER['HTTP_ACCESS_CONTROL_REQUEST_METHOD'] == 'GET' || $_SERVER['HTTP_ACCESS_CONTROL_REQUEST_METHOD'] == 'POST') {
+      header('Access-Control-Allow-Origin: *');
+      header('Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept');
+    }
+  }
+  exit;
+}
+
+header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept');
+
 $app->post('/contact', function () use($app) {
     $body = json_decode($app->request->getBody());
 

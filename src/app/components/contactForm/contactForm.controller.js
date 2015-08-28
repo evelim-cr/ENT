@@ -6,13 +6,29 @@
     .controller('ContactFormController', ContactFormController);
 
   /** @ngInject */
-  function ContactFormController($scope, $modalInstance) {
-    $scope.ok = function () {
-      $modalInstance.close();
-    };
+  function ContactFormController($modalInstance, $http, $log) {
+    var vm = this;
 
-    $scope.cancel = function () {
+    vm.cancel = function () {
       $modalInstance.dismiss('cancel');
     };
+
+    vm.submit = function () {
+      var data = {
+        name: vm.name,
+        email: vm.email,
+        subject: vm.subject,
+        message: vm.message
+      };
+
+      $http.post('http://localhost:5000/contact', data)
+        .then(function (res) {
+          console.log(res);
+          $modalInstance.close();
+        })
+        .catch(function (err) {
+          console.log(err.data.message);
+        });
+    }
   }
 })();

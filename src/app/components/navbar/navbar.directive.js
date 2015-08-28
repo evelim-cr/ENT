@@ -21,7 +21,8 @@
         $scope.openContactForm = function () {
           $modal.open({
             templateUrl: 'app/components/contactForm/contactForm.modal.html',
-            controller: 'ContactFormController'
+            controller: 'ContactFormController',
+            controllerAs: 'form'
           });
         };
       },
