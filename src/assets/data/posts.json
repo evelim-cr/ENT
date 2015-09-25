@@ -362,16 +362,16 @@
   {
     "id": 13,
     "type": "post",
-    "slug": "nulla-quis",
-    "title": "Nulla quis Sapien Posuere",
+    "slug": "cha-mulheres",
+    "title": "1º Chá das Mulheres do Espaço Novo Tempo",
     "status": "published",
     "parent": null,
     "format": "standard",
-    "date": "2015-08-07T10:10:26",
-    "modified": "2015-08-07T10:26:32",
+    "date": "2015-09-25T10:47:23",
+    "modified": "2015-09-25T10:47:23",
     "menu_order": 0,
     "comments_enabled": true,
-    "tags": [ "abc", "cde" ],
+    "tags": [ "chá", "mulheres" ],
     "category": {
       "id": 8,
       "name": "Notícias",
@@ -381,72 +381,12 @@
       "id": 1,
       "first_name": "",
       "last_name": "",
-      "nickname": "bazk",
-      "slug": "bazk",
-      "avatar": "http:\/\/2.gravatar.com\/avatar\/2a3dc20a061f59bd05de0ef735ca0af0?s=96",
+      "nickname": "admin",
+      "slug": "admin",
+      "avatar": "",
       "registered": "2015-08-03T15:21:59+00:00"
     },
-    "excerpt": "Nulla quis sapien posuere, pretium elit nec, cursus metus. Nullam sit amet sollicitudin urna, nec sodales sapien. Mauris sit amet nunc commodo, volutpat est sed, ornare ante.",
-    "content": "Nulla quis sapien posuere, pretium elit nec, cursus metus. Nullam sit amet sollicitudin urna, nec sodales sapien. Mauris sit amet nunc commodo, volutpat est sed, ornare ante. Donec purus orci, pretium ut lobortis in, blandit sed mauris. Proin tincidunt enim tortor, vitae scelerisque leo cursus id. Vivamus euismod ultrices iaculis. Pellentesque gravida magna ac nunc maximus vulputate. Nulla condimentum fringilla ipsum. Fusce at turpis vehicula, efficitur leo in, malesuada dui.\nFusce odio lorem, fringilla at orci nec, vulputate aliquam erat. Cras sed dignissim ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin sit amet pellentesque tortor. Vestibulum ac lectus leo. Cras ultrices enim non arcu hendrerit finibus. Aliquam in risus sodales lacus scelerisque lacinia vitae ac purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.\nUt lobortis rhoncus turpis, in facilisis enim feugiat eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus accumsan dolor at ultricies malesuada. Phasellus vehicula varius consequat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut purus felis, elementum id posuere eget, malesuada ut neque. Etiam pulvinar, neque in aliquam rutrum, tortor tortor pellentesque purus, non pulvinar massa arcu in ipsum. Nam vel turpis ut justo varius scelerisque id sit amet eros. Etiam lacinia tristique fermentum.\n"
-  },
-  {
-    "id": 14,
-    "type": "post",
-    "slug": "mauris-fermentum",
-    "title": "Mauris Fermentum",
-    "status": "published",
-    "parent": null,
-    "format": "standard",
-    "date": "2015-07-12T10:10:26",
-    "modified": "2015-07-12T10:26:32",
-    "menu_order": 0,
-    "comments_enabled": true,
-    "tags": [ "cat", "fur" ],
-    "category": {
-      "id": 8,
-      "name": "Notícias",
-      "slug": "noticias"
-    },
-    "author": {
-      "id": 1,
-      "first_name": "",
-      "last_name": "",
-      "nickname": "bazk",
-      "slug": "bazk",
-      "avatar": "http:\/\/2.gravatar.com\/avatar\/2a3dc20a061f59bd05de0ef735ca0af0?s=96",
-      "registered": "2015-08-03T15:21:59+00:00"
-    },
-    "excerpt": "Mauris fermentum, mi eget interdum pretium, augue nibh feugiat erat, vitae dignissim enim sapien et metus. Aenean porta odio eros, et congue neque iaculis eu.",
-    "content": "Mauris fermentum, mi eget interdum pretium, augue nibh feugiat erat, vitae dignissim enim sapien et metus. Aenean porta odio eros, et congue neque iaculis eu. Praesent sollicitudin felis arcu, vitae scelerisque metus vestibulum sed. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In cursus pellentesque enim, at rhoncus libero eleifend quis. Mauris imperdiet sem id ipsum pharetra ullamcorper. Fusce blandit laoreet pharetra. Praesent a accumsan velit, eleifend bibendum nulla. Duis fringilla auctor pellentesque. Nulla quis pellentesque sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse et maximus purus. Morbi id ante ut orci lacinia euismod.\nEtiam interdum, nulla quis volutpat semper, mauris tortor tristique leo, in finibus metus odio ut mauris. Aliquam sagittis elit ullamcorper volutpat pretium. Sed eu iaculis odio, quis egestas dui. Morbi id ex id ipsum efficitur commodo eu sit amet lacus. Nulla ut urna diam. Aliquam erat volutpat. Pellentesque a felis sit amet massa rutrum varius. Aliquam viverra a tellus ac faucibus. Cras placerat mi ac ornare volutpat. Phasellus hendrerit tellus elit, sed posuere nulla consequat et. Nulla facilisi. Suspendisse quis mattis lacus, et pharetra tellus.\nPellentesque ut nibh tellus. Cras porta dui sollicitudin metus pulvinar, ut scelerisque nunc accumsan. Etiam pharetra lectus eget sodales aliquet. Vestibulum nec neque lacus. Nullam lacinia sollicitudin tristique. Ut orci dui, volutpat eu tortor id, dapibus tempus orci. Aliquam sodales sodales felis, quis molestie leo porttitor quis. Nulla non massa augue.\n"
-  },
-  {
-    "id": 15,
-    "type": "post",
-    "slug": "sed-non-congue-velit",
-    "title": "Sed Non Congue Velit",
-    "status": "published",
-    "parent": null,
-    "format": "standard",
-    "date": "2015-08-09T10:10:26",
-    "modified": "2015-08-10T10:26:32",
-    "menu_order": 0,
-    "comments_enabled": true,
-    "tags": [ "cat", "fur" ],
-    "category": {
-      "id": 8,
-      "name": "Notícias",
-      "slug": "noticias"
-    },
-    "author": {
-      "id": 1,
-      "first_name": "",
-      "last_name": "",
-      "nickname": "bazk",
-      "slug": "bazk",
-      "avatar": "http:\/\/2.gravatar.com\/avatar\/2a3dc20a061f59bd05de0ef735ca0af0?s=96",
-      "registered": "2015-08-03T15:21:59+00:00"
-    },
-    "excerpt": "Sed non congue velit, ut mattis dui. Aenean tristique nulla sit amet condimentum auctor. Suspendisse pharetra gravida metus, quis aliquet libero gravida eget. Integer ac tortor sit amet sapien suscipit imperdiet. Nullam ornare nisl eu risus pharetra dictum.",
-    "content": "Sed non congue velit, ut mattis dui. Aenean tristique nulla sit amet condimentum auctor. Suspendisse pharetra gravida metus, quis aliquet libero gravida eget. Integer ac tortor sit amet sapien suscipit imperdiet. Nullam ornare nisl eu risus pharetra dictum. Morbi turpis erat, cursus vitae lobortis ac, consectetur vel dolor. In a turpis ornare, pellentesque erat quis, vestibulum sem. Proin ut lacus orci.\nQuisque ante nibh, blandit sit amet diam quis, consectetur egestas quam. Curabitur vitae lacinia erat. Aliquam turpis lorem, varius non convallis ut, laoreet a libero. Praesent ac vehicula dolor. Ut vel odio quam. Suspendisse potenti. Nam iaculis libero mauris, at ultricies turpis commodo quis. Nullam neque velit, varius sed varius id, gravida id ligula. Sed vel placerat felis. Duis ac diam pulvinar, feugiat massa sit amet, egestas magna. Ut pretium venenatis tempor. Curabitur augue elit, mollis at pretium in, placerat id libero. Sed urna nisi, consequat vitae ligula nec, varius sollicitudin leo. Vivamus posuere eget augue at tristique. Cras consequat dui ac semper facilisis.\nVestibulum egestas enim risus, eu tempus lectus scelerisque et. Sed eu fringilla urna, et ultrices lorem. Ut vel dui libero. Quisque condimentum nulla non ligula imperdiet lacinia vitae eu ex. Aenean varius ultricies elementum. Cras eu elementum mauris. Proin vulputate odio vitae nisi commodo gravida. In at imperdiet tortor, non malesuada ante. Vestibulum purus ligula, egestas non felis ac, hendrerit ullamcorper mauris. Nullam eu nisl rutrum, faucibus dui in, suscipit massa. Praesent luctus purus eget nisi commodo, ac tincidunt nunc ultrices.\n"
+    "excerpt": "É com muita alegria que convidamos a todas as mulheres a participarem do 1º Chá de Mulheres do Espaço Novo Tempo. Será um momento muito especial de confraternização e missão.",
+    "content": "<p>É com muita alegria que convidamos a todas as mulheres a participarem do 1º Chá de Mulheres do Espaço Novo Tempo. Será um momento muito especial de confraternização e missão. O tema de nosso chá é <strong>África</strong> e por isso tudo terá esta temática como: comida, decoração e, é claro, o traje. Assim  todas podem se caracterizar usando a imaginação.</p><p>Você pode contribuir levando um prato bem saboroso, como, por exemplo: bolo de milho, cuscuz, pamonha entre outros (que seja <em>simples</em>, pois é de culinária africana, fique a vontade se desejar pesquisar).</p><img src=\"/assets/images/cha-mulheres.jpg\" align=\"left\" class=\"col-xs-12 col-md-6\"><br/><p>Algumas informações importantes:</p><p>Evento: <strong>Chá Mulheres ENT</strong><br/>Tema: <strong>África</strong><br/>Data: <strong>04/10</strong><br/>Horário: <strong>15:00</strong><br/>Local: <strong><a href=\"https://www.google.com.br/maps/place/Av.+Presidente+Affonso+Camargo,+2125+-+Cristo+Rei,+Matriz,+Curitiba+-+PR,+80050-370/@-25.437665,-49.2408192,17z/data=!3m1!4b1!4m2!3m1!1s0x94dce5aa2ffc3ca3:0x780efe2ced5e1af0\" target=\"_blank\">Av. Pres. Affonso Camargo, 2125 - Cristo Rei</a></strong> <em>(Salão de festas da casa da Fábia)</em><br/>Confirmar até o dia: <strong>30/09</strong></p><br/><p>Peço que entrem no Facebook para participarem do grupo de mulheres: <strong><a href=\"https://www.facebook.com/groups/155063844835162/\" target=\"_blank\">Ministério da Mulher - ENT</a></strong></p>"
   }
 ]
