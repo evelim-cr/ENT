@@ -33,6 +33,11 @@
       $scope.$watch('cidade', function () {
         var times = SunCalc.getTimes($scope.date, $scope.cidade.lat, $scope.cidade.lon);
         $scope.horario = times.sunset;
+
+        // invalid date
+        if (isNaN($scope.horario.getTime())) {
+          $scope.horario = null;
+        }
       }, true);
   	}
 
