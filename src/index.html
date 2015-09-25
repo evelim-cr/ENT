@@ -50,10 +50,12 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <div class="wrapper">
-      <ent-navbar></ent-navbar>
+    <ent-navbar></ent-navbar>
 
-      <div class="content" ng-view></div>
+    <ent-header ng-show="isHome()"></ent-header>
+
+    <div class="wrapper">
+      <div class="content" ng-view autoscroll="true"></div>
 
       <ent-footer></ent-footer>
     </div>

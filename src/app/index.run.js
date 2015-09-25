@@ -6,7 +6,10 @@
     .run(runBlock);
 
   /** @ngInject */
-  function runBlock() {
+  function runBlock($rootScope, $location) {
+    $rootScope.isHome = function () {
+      return ($location.path() === '/');
+    };
   }
 
 })();

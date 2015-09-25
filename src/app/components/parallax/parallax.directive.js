@@ -9,15 +9,10 @@
   function entParallax($window) {
     var directive = {
       restrict: 'A',
-      scope: {
-        parallaxCss: '@',
-        parallaxInitVal: '@',
-        parallaxRatio: '@'
-      },
       link: linkFunc
     };
 
-    function linkFunc(scope, element) {
+    function linkFunc(scope, element, attrs) {
       var cssKey,
           cssValue,
           isSpecialVal,
@@ -26,7 +21,7 @@
           parallaxInitVal,
           cssValArray;
 
-      parallaxCssVal = scope.parallaxCss ? scope.parallaxCss : 'top';
+      parallaxCssVal = attrs.parallaxCss ? attrs.parallaxCss : 'top';
       cssValArray = parallaxCssVal.split(':');
       cssKey = cssValArray[0];
       cssValue = cssValArray[1];
@@ -36,8 +31,8 @@
         cssValue = cssKey;
       }
 
-      parallaxRatio = scope.parallaxRatio ? +scope.parallaxRatio : 1.1;
-      parallaxInitVal = scope.parallaxInitVal ? +scope.parallaxInitVal : 0;
+      parallaxRatio = attrs.parallaxRatio ? +attrs.parallaxRatio : 1.1;
+      parallaxInitVal = attrs.parallaxInitVal ? +attrs.parallaxInitVal : 0;
 
       element.css(cssKey, parallaxInitVal + 'px');
 

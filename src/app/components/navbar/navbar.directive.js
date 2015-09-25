@@ -15,10 +15,6 @@
       controller: function ($scope, $modal) {
         $scope.navbarCollapsed = true;
 
-        $scope.isHome = function () {
-          return ($location.path() === '/');
-        };
-
         $scope.openContactForm = function () {
           $modal.open({
             templateUrl: 'app/components/contactForm/contactForm.modal.html',
