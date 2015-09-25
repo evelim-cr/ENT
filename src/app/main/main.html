@@ -62,7 +62,7 @@
                             </div>
                             <div class="event-body">
                                 <h4 class="event-title">{{ event.title }}</h4>
-                                <p><i class="fa fa-map-marker"></i> {{ event.place }}</p>
+                                <p ng-show="event.place"><i class="fa fa-map-marker"></i> {{ event.place }}</p>
                                 <p><i class="fa fa-clock-o"></i> {{ event.timestamp | date:'HH:mm' }}</p>
                             </div>
                         </div>
