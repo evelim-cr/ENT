@@ -23,12 +23,12 @@
 
       $http.post('http://localhost:5000/contact', data)
         .then(function (res) {
-          console.log(res);
+          $log.debug(res);
           $modalInstance.close();
         })
         .catch(function (err) {
-          console.log(err.data.message);
+          $log.error(err.data.message);
         });
-    }
+    };
   }
 })();

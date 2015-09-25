@@ -1,3 +1,4 @@
+/* global $:false */
 (function() {
   'use strict';
 
@@ -26,7 +27,7 @@
           });
         };
       },
-      link: function (scope, element, attrs) {
+      link: function (scope, element) {
         var $navbar = $(element).find('nav.navbar');
 
         $($window).scroll(function() {

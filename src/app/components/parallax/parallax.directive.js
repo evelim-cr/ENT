@@ -17,12 +17,11 @@
       link: linkFunc
     };
 
-    function linkFunc(scope, element, attrs) {
+    function linkFunc(scope, element) {
       var cssKey,
           cssValue,
           isSpecialVal,
           parallaxCssVal,
-          parallaxOffset,
           parallaxRatio,
           parallaxInitVal,
           cssValArray;

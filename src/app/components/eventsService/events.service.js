@@ -7,7 +7,7 @@
 
   /** @ngInject */
   function eventsService($log, $http) {
-    function getEvents(options) {
+    function getEvents() {
       return $http.get("/assets/data/eventos.json")
         .then(function(response) {
           var currentTimestamp = new Date();
