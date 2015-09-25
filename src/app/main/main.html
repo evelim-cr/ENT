@@ -35,7 +35,7 @@
                     <h3><i class="fa fa-file-text"></i> Notícias</h3>
                     <div class="row">
                         <div class="col-md-4" ng-repeat="post in posts | orderBy:'-date' | limitTo:3">
-                            <h4><a href="/{{ post.slug }}">{{ post.title }}</a></h4>
+                            <h4><a href="#!/{{ post.slug }}">{{ post.title }}</a></h4>
                             <p>{{ post.excerpt }}</p>
                         </div>
                     </div>

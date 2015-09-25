@@ -13,7 +13,7 @@
 
     //Enable html5mode (pretty urls)
     $locationProvider
-      .html5Mode({ enabled:true, rewriteLinks: false })
+      // .html5Mode({ enabled: true, rewriteLinks: false })
       .hashPrefix('!');
   }
 
