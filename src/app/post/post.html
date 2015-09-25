@@ -1,12 +1,12 @@
 <!-- About -->
 <section id="post">
     <div class="container">
-        <div class="col-lg-10 col-lg-offset-1 text-center">
-            <h2>{{ post.title }}</h2>
+        <div class="col-lg-10 col-lg-offset-1">
+            <h2 class="post-title">{{ post.title }}</h2>
 
             <hr class="small">
 
-            <div class="post-content">{{ post.content }}</div>
+            <div class="post-content" ng-bind-html="post.content"></div>
         </div>
     </div>
 </section>
